@@ -1,0 +1,18 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.cpython*
+
+# Virtual environment
+venv/
+
+# VS Code settings
+.vscode/
+
+# Other unnecessary stuff
+.DS_Store
+*.log
+accident_*.*
+
