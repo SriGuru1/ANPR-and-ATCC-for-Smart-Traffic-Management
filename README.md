@@ -1,5 +1,22 @@
 # 🚦 ANPR and ATCC for Smart Traffic Management  
 
+> An AI-powered Smart Traffic Management System using **Automatic Number Plate Recognition (ANPR)** and **Automatic Traffic Classification and Control (ATCC)** to enhance road safety, reduce congestion, and enable smart city automation.
+
+---
+
+![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white)
+![YOLO](https://img.shields.io/badge/YOLOv8-Object%20Detection-orange?logo=yolo)
+![Flask](https://img.shields.io/badge/Flask-Backend-black?logo=flask)
+![Deep Learning](https://img.shields.io/badge/Deep%20Learning-CNN-green?logo=tensorflow)
+![OpenCV](https://img.shields.io/badge/OpenCV-Image%20Processing-red?logo=opencv)
+![MySQL](https://img.shields.io/badge/MySQL-Database-blue?logo=mysql)
+![GitHub](https://img.shields.io/badge/Hosted%20on-GitHub-black?logo=github)
+
+---
+
+
+# 🚦 ANPR and ATCC for Smart Traffic Management  
+
 ### 📊 Intelligent Traffic Monitoring using Deep Learning  
 
 ![License Plate Recognition](https://img.shields.io/badge/Project-Computer%20Vision-blue?style=for-the-badge)
