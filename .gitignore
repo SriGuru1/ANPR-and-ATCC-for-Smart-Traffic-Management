@@ -1,18 +1,21 @@
+# Virtual environments
+venv/
+ENV/
+env/
+
 # Python cache
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-*.cpython*
 
-# Virtual environment
-venv/
+# Model weights and large files
+*.pt
+*.onnx
+*.weights
 
-# VS Code settings
-.vscode/
-
-# Other unnecessary stuff
+# System and IDE files
 .DS_Store
-*.log
-accident_*.*
-
+Thumbs.db
+.vscode/
+.idea/
