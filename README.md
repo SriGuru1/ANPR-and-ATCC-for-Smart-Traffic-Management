@@ -100,6 +100,38 @@ This project was developed in **four key milestones** — each focusing on a maj
 ✔ System validated for real-time performance with strong accuracy and responsiveness.
 
 ---
+## ⚙️ Tech Stack
+
+| Category | Tools / Technologies Used |
+|-----------|---------------------------|
+| **Programming Language** | Python 3 |
+| **Deep Learning Framework** | YOLOv8 (Ultralytics) |
+| **Computer Vision** | OpenCV |
+| **Database** | MySQL |
+| **Backend Integration** | Flask |
+| **Frontend Dashboard** | HTML, CSS, JavaScript |
+| **Data Handling & Visualization** | Pandas, Matplotlib |
+| **Model Optimization** | ONNX Runtime, Torch |
+| **Version Control** | Git & GitHub |
+| **Large File Storage** | Git LFS |
+| **Deployment Environment** | Local + Edge Device (Jetson / CPU) |
+## 🧠 System Architecture
+
+The entire pipeline works as an integrated system performing detection, classification, and decision-making in real-time.
+
+**Workflow:**
+1. **Input Feed:** Real-time video from traffic cameras.
+2. **ANPR Module:** Detects and recognizes vehicle license plates using YOLO + OCR.
+3. **ATCC Module:** Classifies vehicles (bike, car, truck, bus) using YOLOv8.
+4. **Violation Detection:** Identifies helmetless riders and triple riding.
+5. **Database Layer:** Stores plate numbers, vehicle type, violations, and timestamps in MySQL.
+6. **Decision Layer:** Determines traffic density and optimizes signal duration.
+7. **Dashboard:** Displays live results, statistics, and reports for analysis.
+
+---
+
+
+
 
 
 
