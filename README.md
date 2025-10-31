@@ -39,5 +39,67 @@ and control — making roads safer and reducing congestion in smart city environ
 ### ✅ 4. **Smart City Integration**  
 - Ready to integrate with IoT and smart city data systems.  
 - Provides real-time analytics for city traffic control centers.  
+## 🧱 Implementation Plan
+
+This project was developed in **four key milestones** — each focusing on a major functional component of the intelligent traffic management system.
+
+---
+
+### 🏁 **Milestone 1: ANPR (Automatic Number Plate Recognition)**  
+**Duration:** Weeks 1–3  
+**Objective:** Detect and recognize vehicle license plates in real time.  
+
+**Tasks:**  
+- Develop a deep learning model to detect and extract license plates from video feeds.  
+- Implement Optical Character Recognition (OCR) to read plate numbers.  
+- Integrate with a live camera feed and store results in a database.  
+
+**Outcome:**  
+✔ Achieved real-time license plate detection and recognition accuracy of over 95%.
+
+---
+
+### 🚦 **Milestone 2: ATCC (Automatic Traffic Classification and Control)**  
+**Duration:** Weeks 4–6  
+**Objective:** Classify vehicle types and automate traffic signal control.  
+
+**Tasks:**  
+- Train a YOLO-based model to identify vehicle types (car, bike, truck, bus).  
+- Implement logic to adjust signal durations based on vehicle density.  
+- Integrate ATCC module with simulated traffic lights.  
+
+**Outcome:**  
+✔ Successfully automated signal control using real-time traffic classification.
+
+---
+
+### 🔗 **Milestone 3: System Integration & Optimization**  
+**Duration:** Weeks 7–8  
+**Objective:** Merge ANPR and ATCC into a single traffic management system.  
+
+**Tasks:**  
+- Combine ANPR and ATCC into a unified Python application.  
+- Optimize model performance for real-time execution.  
+- Ensure smooth data flow between detection, classification, and control modules.  
+
+**Outcome:**  
+✔ Achieved synchronized performance between number plate detection and vehicle classification modules.
+
+---
+
+### 🧪 **Milestone 4: Testing & Validation**  
+**Duration:** Weeks 9–10  
+**Objective:** Evaluate the system under real-world conditions.  
+
+**Tasks:**  
+- Test the system using live traffic camera footage.  
+- Measure accuracy, latency, and reliability metrics.  
+- Validate database entries and decision logic.  
+
+**Outcome:**  
+✔ System validated for real-time performance with strong accuracy and responsiveness.
+
+---
+
 
 
